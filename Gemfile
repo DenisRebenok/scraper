@@ -45,9 +45,19 @@ group :development do
   gem 'spring'
 end
 
+# Use HAML by default instead of erb
+gem 'haml-rails'
+
 # Bootstrap
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
 gem 'simple_form'
 
 gem 'devise'
+
+gem "validate_url"
+
+gem "nokogiri"
+
+gem "utf8_utils", :git => 'https://github.com/norman/utf8_utils.git'
+

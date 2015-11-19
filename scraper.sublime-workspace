@@ -4,8 +4,20 @@
 		"selected_items":
 		[
 			[
+				"movie_",
+				"movie_data"
+			],
+			[
+				"att",
+				"attr	Ruby attr_accessor"
+			],
+			[
 				"req",
-				"require"
+				"req	require \"..\""
+			],
+			[
+				"na",
+				"navbar"
 			],
 			[
 				"pro",
@@ -30,10 +42,6 @@
 			[
 				"order",
 				"order_form"
-			],
-			[
-				"att",
-				"attrw	Ruby attr_writer"
 			],
 			[
 				"link",
@@ -163,14 +171,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "Gemfile",
-			"settings":
-			{
-				"buffer_size": 1609,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -185,7 +185,7 @@
 		[
 			[
 				"Package Control: ",
-				"Package Control: List Packages"
+				"Package Control: Disable Package"
 			],
 			[
 				"instal",
@@ -204,7 +204,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 516.0
+		"width": 453.0
 	},
 	"console":
 	{
@@ -225,10 +225,33 @@
 	},
 	"expanded_folders":
 	[
-		"/home/denis/Dropbox/scraper"
+		"/home/denis/Dropbox/scraper",
+		"/home/denis/Dropbox/scraper/app",
+		"/home/denis/Dropbox/scraper/app/assets/stylesheets",
+		"/home/denis/Dropbox/scraper/app/views",
+		"/home/denis/Dropbox/scraper/app/views/movies"
 	],
 	"file_history":
 	[
+		"/home/denis/Dropbox/scraper/app/views/movies/show.html.haml",
+		"/home/denis/Dropbox/scraper/app/views/movies/_form.html.haml",
+		"/home/denis/Dropbox/scraper/app/views/movies/index.html.haml",
+		"/home/denis/Dropbox/scraper/app/views/movies/new.html.haml",
+		"/home/denis/Dropbox/scraper/app/views/layouts/application.html.erb",
+		"/home/denis/Dropbox/scraper/app/models/scrape.rb",
+		"/home/denis/Dropbox/scraper/app/assets/stylesheets/pages.scss",
+		"/home/denis/Dropbox/scraper/Gemfile",
+		"/home/denis/.config/sublime-text-3/Packages/Ruby Debugger/Ruby Debugger.sublime-settings",
+		"/home/denis/Dropbox/scraper/app/controllers/movies_controller.rb",
+		"/home/denis/Dropbox/scraper/app/views/layouts/_header.html.erb",
+		"/home/denis/Dropbox/scraper/config/initializers/noko.rb",
+		"/home/denis/Dropbox/scraper/app/models/movie.rb",
+		"/home/denis/Dropbox/scraper/app/models/user.rb",
+		"/home/denis/Dropbox/scraper/app/controllers/pages_controller.rb",
+		"/home/denis/Dropbox/scraper/db/migrate/20151116195718_create_movies.rb",
+		"/home/denis/Dropbox/scraper/app/views/pages/home.html.haml",
+		"/home/denis/Dropbox/scraper/config/routes.rb",
+		"/home/denis/Dropbox/scraper/db/migrate/20151116190046_devise_create_users.rb",
 		"/home/denis/Dropbox/my_store/app/models/item.rb",
 		"/home/denis/Dropbox/my_store/app/controllers/items_controller.rb",
 		"/home/denis/Dropbox/my_store/Gemfile",
@@ -337,26 +360,7 @@
 		"/home/denis/Dropbox/my_store/db/migrate/20151004134513_create_users.rb",
 		"/home/denis/Dropbox/my_store/public/403.html",
 		"/home/denis/Dropbox/my_store/.Gemfile",
-		"/home/denis/Dropbox/my_store/db/migrate/20150926202328_add_description_column_to_items.rb",
-		"/home/denis/Dropbox/my_store/db/migrate/20150926",
-		"/home/denis/Dropbox/my_store/Gemfile.lock",
-		"/home/denis/Dropbox/my_store/db/schema.rb",
-		"/home/denis/Dropbox/my_store/gemfile",
-		"/home/denis/Dropbox/my_store/.git-ignore",
-		"/home/denis/Dropbox/bursa/ex_rails/app/controllers/goods_controller.rb",
-		"/home/denis/Dropbox/bursa/ex_rails/config/routes.rb",
-		"/home/denis/Dropbox/bursa/ex_rails/config/database.yml",
-		"/home/denis/Dropbox/bursa/ex_rails/config/locales/en.yml",
-		"/home/denis/Desktop/Untitled Document",
-		"/home/denis/Dropbox/ror-beginner/oop/car.rb",
-		"/home/denis/Dropbox/shkola/elevator.rb",
-		"/home/denis/Dropbox/shkola/lift.rb",
-		"/home/denis/Dropbox/shkola/main.rb",
-		"/home/denis/Dropbox/shkola/fibonachi.rb",
-		"/home/denis/Dropbox/ror-beginner/oop/main_2.rb",
-		"/home/denis/Dropbox/ror-beginner/blocks/blocks.rb",
-		"/home/denis/Dropbox/shkola/2-ruby-oop.rb",
-		"/home/denis/Dropbox/shkola/oop2_hw.rb"
+		"/home/denis/Dropbox/my_store/db/migrate/20150926202328_add_description_column_to_items.rb"
 	],
 	"find":
 	{
@@ -408,39 +412,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Gemfile",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1609,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1513,
-								1513
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "ruby",
-							"buffer_scroll_name": "3093a4de",
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 432.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -569,7 +542,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 249.0,
+	"side_bar_width": 200.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
